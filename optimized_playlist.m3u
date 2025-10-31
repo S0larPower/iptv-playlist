@@ -1,221 +1,741 @@
-#EXTM3U x-tvg-url="http://epg.it999.ru/epg.xml.gz" url-tvg="http://epg.it999.ru/epg.xml.gz"
-
-##############################
-### 📺 ОСНОВНЫЕ КАНАЛЫ
-##############################
-
-#EXTINF:-1 tvg-id="perviy" tvg-logo="https://i.imgur.com/abc123.png" group-title="ОСНОВНЫЕ КАНАЛЫ",Первый канал
-http://95.85.109.219:7000/play/a001
-
-#EXTINF:-1 tvg-id="russia1" tvg-logo="https://i.imgur.com/def456.png" group-title="ОСНОВНЫЕ КАНАЛЫ",Россия 1
-http://95.85.109.219:7000/play/a002
-
-#EXTINF:-1 tvg-id="ntv" tvg-logo="https://i.imgur.com/ghi789.png" group-title="ОСНОВНЫЕ КАНАЛЫ",НТВ
-http://95.85.109.219:7000/play/a003
-
-#EXTINF:-1 tvg-id="russia24" tvg-logo="https://i.imgur.com/jkl012.png" group-title="ОСНОВНЫЕ КАНАЛЫ",Россия 24
-http://95.85.109.219:7000/play/a004
-
-#EXTINF:-1 tvg-id="tvcentr" tvg-logo="https://i.imgur.com/mno345.png" group-title="ОСНОВНЫЕ КАНАЛЫ",ТВ Центр
-http://95.85.109.219:7000/play/a005
-
-##############################
-### 🎬 КИНО И СЕРИАЛЫ
-##############################
-
-#EXTINF:-1 tvg-id="tv1000" tvg-logo="https://i.imgur.com/pqr678.png" group-title="КИНО И СЕРИАЛЫ",TV1000
-http://95.85.109.219:7000/play/a012
-
-#EXTINF:-1 tvg-id="tv1000action" tvg-logo="https://i.imgur.com/stu901.png" group-title="КИНО И СЕРИАЛЫ",TV1000 Action
-http://95.85.109.219:7000/play/a013
-
-#EXTINF:-1 tvg-id="kinohit" tvg-logo="https://i.imgur.com/vwx234.png" group-title="КИНО И СЕРИАЛЫ",Кинохит
+#EXTM3U
+#EXTINF:-1,ТВA-30.10.2025-iptv.org.ua/Ревизия №-1/05-30
+https://iptv.org.ua/wp-content/uploads/2022/01/Moyo-slayd33-shou.mp4
+#EXTINF:-1 xui-id="10452" tvg-id="" tvg-name="IPTVPLAY УЖАСТИК HD" tvg-logo="" group-title="Кинозалы (VPN)",IPTVPLAY УЖАСТИК HD
+http://128.140.55.5:80/play/hhvFRY1oVT36QbH4zdqDv00bneXjPKOEur-OTTYsPIs/m3u8
+#EXTINF:-1 xui-id="10453" tvg-id="" tvg-name="IPTVPLAY ВЕДЬМАК HD" tvg-logo="" group-title="Кинозалы (VPN)",IPTVPLAY ВЕДЬМАК HD
+http://128.140.55.5:80/play/hhvFRY1oVT36QbH4zdqDv3F-Q_PTmZVmp3vq8tnL9jQ/m3u8
+#EXTINF:-1 xui-id="10454" tvg-id="" tvg-name="IPTVPLAY Великая Отечественная HD" tvg-logo="" group-title="Кинозалы (VPN)",IPTVPLAY Великая Отечественная HD
+http://128.140.55.5:80/play/hhvFRY1oVT36QbH4zdqDv1oSoYiDdFV7V52_6UyzNiQ/m3u8
+#EXTINF:-1 xui-id="10464" tvg-id="" tvg-name="MM Скорость HD" tvg-logo="" group-title="Кинозалы (VPN)",MM Скорость HD
+http://128.140.55.5:80/play/hhvFRY1oVT36QbH4zdqDv4QZFqoSHwsiXQK62f-XB84/m3u8
+#EXTINF:-1 xui-id="10471" tvg-id="" tvg-name="РуКино HD" tvg-logo="" group-title="Кинозалы (VPN)",РуКино HD
+http://128.140.55.5:80/play/hhvFRY1oVT36QbH4zdqDv4v6E3GAxRPzSZFpK7g6XRU/m3u8
+#EXTINF:-1 xui-id="10492" tvg-id="" tvg-name="BCU Кинозалы (VPN) Premiere 1 HD" tvg-logo="" group-title="Кинозалы (VPN)",BCU Кинозалы (VPN) Premiere 1 HD
+http://128.140.55.5:80/play/hhvFRY1oVT36QbH4zdqDvxneYdsHqR6D2yQR55Hqido/m3u8
+#EXTINF:-1 xui-id="10493" tvg-id="" tvg-name="BCU Кинозалы (VPN) Premiere 2 HD" tvg-logo="" group-title="Кинозалы (VPN)",BCU Кинозалы (VPN) Premiere 2 HD
+http://128.140.55.5:80/play/hhvFRY1oVT36QbH4zdqDvyvLqSptfc1SKx-z1dV8ZbI/m3u8
+#EXTINF:-1 xui-id="10494" tvg-id="" tvg-name="BCU Кинозалы (VPN) Premiere 3 HD" tvg-logo="" group-title="Кинозалы (VPN)",BCU Кинозалы (VPN) Premiere 3 HD
+http://128.140.55.5:80/play/hhvFRY1oVT36QbH4zdqDvyB3p-UUaNgn4QKM3cNGArQ/m3u8
+#EXTINF:-1 xui-id="10503" tvg-id="" tvg-name="BCU СССР HD" tvg-logo="" group-title="Кинозалы (VPN)",BCU СССР HD
+http://128.140.55.5:80/play/hhvFRY1oVT36QbH4zdqDv2lEkhxN6MKHmepnlKJwNyw/m3u8
+#EXTINF:-1 xui-id="10504" tvg-id="" tvg-name="BCU Сваты HD" tvg-logo="" group-title="Кинозалы (VPN)",BCU Сваты HD
+http://128.140.55.5:80/play/hhvFRY1oVT36QbH4zdqDv-jMlYJyz_AfhkVNRyYSe20/m3u8
+#EXTINF:-1 xui-id="10508" tvg-id="" tvg-name="BCU Мультсериал HD" tvg-logo="" group-title="Кинозалы (VPN)",BCU Мультсериал HD
+http://128.140.55.5:80/play/hhvFRY1oVT36QbH4zdqDv7JTnkmkdMT99PwNcZ5RVwE/m3u8
+#EXTINF:-1 group-title="Каналы с VPN",VHS-ка
+http://95.66.188.74/VHS/index.m3u8
+#EXTINF:-1 group-title="Каналы с VPN" tvg-logo="https://i.postimg.cc/mDMCsgNL/1.png", IPTVPLAY ВЕДЬМАК
+http://5.188.158.65:4040/IPTVPLAYVEDMAK.tv/video.m3u8?token=lqRGka5-YwwqF0
+#EXTINF:-1 group-title="Каналы с VPN" tvg-logo="https://i.postimg.cc/D06WvJWn/1.png", IPTVPLAY ДЕСЯТОЕ КОРОЛЕВСТВО
+http://5.188.158.65:4040/IPTVPLAY10KOROLEVSTVO.tv/video.m3u8?token=lqRGka5-YwwqF0
+#EXTINF:-1 group-title="Каналы с VPN" tvg-logo="https://i.ibb.co/pbxx3Sd/Fantastika.png", IPTVPLAY ФАНТАСТИКА
+http://5.188.158.65:4040/IPTVPLAYFANTASTIKA.tv/video.m3u8?token=lqRGka5-YwwqF0
+#EXTINF:-1 group-title="Каналы с VPN" tvg-logo="https://i.ibb.co/7gj4dQM/Pamyat.png", IPTVPLAY ПАМЯТЬ
+http://5.188.158.65:4040/IPTVPLAYPAMYAT.tv/video.m3u8?token=lqRGka5-YwwqF0
+#EXTINF:-1 group-title="Каналы с VPN" tvg-logo="https://i.ibb.co/LZkQq0x/Uzhastik.png", IPTVPLAY УЖАСТИК
+http://5.188.158.65:4040/IPTVPLAYUZHASTIK.tv/video.m3u8?token=lqRGka5-YwwqF0
+#EXTINF:-1 group-title="Каналы с VPN",Киносемья HD
+http://194.32.242.245/kinosemyahd/index.m3u8
+#EXTINF:-1 group-title="Каналы с VPN",Мужское Кино
+http://178.212.71.253:8000/play/126/index.m3u8
+#EXTINF:-1 group-title="Каналы с VPN",Родное Кино
+http://178.212.71.253:8000/play/136/index.m3u8
+#EXTINF:-1 group-title="Каналы с VPN",Кто Есть Кто
+http://178.212.71.253:8000/play/132/index.m3u8
+#EXTINF:-1 group-title="Каналы с VPN",Кино ТВ
+http://178.212.71.253:8000/play/78/index.m3u8
+#EXTINF:-1 group-title="Каналы с VPN",М-Золотая коллекция
+http://178.212.71.253:8000/play/124/index.m3u8
+#EXTINF:-1 group-title="Каналы с VPN",Ретро
+http://178.212.71.253:8000/play/90/index.m3u8
+#EXTINF:-1 group-title="Каналы с VPN",Р Бестселер
+http://178.212.71.253:8000/play/115/index.m3u8
+#EXTINF:-1 group-title="Каналы с VPN",Р Детектив
+http://178.212.71.253:8000/play/45/index.m3u8
+#EXTINF:-1 group-title="Каналы с VPN",Р Иллюзион
+http://178.212.71.253:8000/play/49/index.m3u8
+#EXTINF:-1 group-title="Каналы с VPN",Пятница
+http://178.212.71.253:8000/play/16/index.m3u8
+#EXTINF:-1 group-title="Каналы с VPN",Живая природа
+http://178.212.71.253:8000/play/79/index.m3u8
+#EXTINF:-1 group-title="Каналы с VPN",История
+http://178.212.71.253:8000/play/87/index.m3u8
+#EXTINF:-1 group-title="Каналы с VPN",Наука
+http://178.212.71.253:8000/play/88/index.m3u8
+#EXTINF:-1 group-title="Каналы с VPN",Большая азия
+http://178.212.71.253:8000/play/83/index.m3u8
+#EXTINF:-1 group-title="Каналы с VPN",Техно 24
+http://178.212.71.253:8000/play/63/index.m3u8
+#EXTINF:-1 group-title="Каналы с VPN",Доктор
+http://178.212.71.253:8000/play/68/index.m3u8
+#EXTINF:-1 group-title="Каналы с VPN",Здоровое ТВ
+http://178.212.71.253:8000/play/94/index.m3u8
+#EXTINF:-1 group-title="Каналы с VPN",Домашние животные
+http://178.212.71.253:8000/play/95/index.m3u8
+#EXTINF:-1 group-title="Каналы с VPN",Конный Мир
+http://178.212.71.253:8000/play/108/index.m3u8
+#EXTINF:-1 group-title="Каналы с VPN",Матч ТВ HD
+http://178.212.71.253:8000/play/34/index.m3u8
+#EXTINF:-1 group-title="Каналы с VPN",СПОРТ! Страна
+http://178.212.71.253:8000/play/51/index.m3u8
+#EXTINF:-1 group-title="Каналы с VPN",СПОРТ! Арена
+http://178.212.71.253:8000/play/54/index.m3u8
+#EXTINF:-1 group-title="Каналы с VPN",СПОРТ! Борец
+http://178.212.71.253:8000/play/55/index.m3u8
+#EXTINF:-1 group-title="Каналы с VPN",СПОРТ! Игра
+http://178.212.71.253:8000/play/56/index.m3u8
+#EXTINF:-1 group-title="Каналы с VPN",СПОРТ! Премьер
+http://178.212.71.253:8000/play/57/index.m3u8
+#EXTINF:-1 group-title="Каналы с VPN",СПОРТ! Футбол 1
+http://178.212.71.253:8000/play/58/index.m3u8
+#EXTINF:-1 group-title="Каналы с VPN",ПРАЙМ СПОРТ HD
+http://185.221.213.254:8080/Okko/index.m3u8
+#EXTINF:-1 group-title="Каналы с VPN",TV1000 Кино
+http://91.194.191.241:8081/chid69/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Каналы с VPN",Индийское Кино
+http://91.194.191.241:8081/chid409/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Каналы с VPN",Советская Киноклассика
+http://91.194.191.241:8081/chid276/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Каналы с VPN", Экстрим
+http://91.194.191.241:8081/chid44/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Каналы с VPN", Иллюзион
+http://91.194.191.241:8081/chid81/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Каналы с VPN", Детектив
+http://91.194.191.241:8081/chid82/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Каналы с VPN",Поехали!
+http://91.194.191.241:8081/chid278/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Каналы с VPN",Нано ТВ
+http://91.194.191.241:8081/chid238/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Каналы с VPN",Загородная Жизнь
+http://91.194.191.241:8081/chid167/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Каналы с VPN",Первый Космический
+http://91.194.191.241:8081/chid427/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Каналы с VPN",Телепутешествия
+http://91.194.191.241:8081/chid433/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Каналы с VPN",Моя Стихия
+http://91.194.191.241:8081/chid430/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="KINO+📺",Премьера HD
+http://158.101.222.193:88/georgia_play.php?id=kinopremyerahd
+#EXTINF:-1 group-title="KINO+📺",К премьера HD
 http://95.85.109.219:7000/play/a085
-
-#EXTINF:-1 tvg-id="kinokomediya" tvg-logo="https://i.imgur.com/yza567.png" group-title="КИНО И СЕРИАЛЫ",Кинокомедия
+#EXTINF:-1 group-title="KINO+📺",Кинохит hd
+https://vod.splay.uz/live_splay/original/Kinoxit/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="KINO+📺",Кинохит FUL HD
+http://87.246.54.249:8085/KinoHit/mpegts
+#EXTINF:-1 group-title="KINO+📺",Кино комедия
+http://195.64.140.147:10047/47
+#EXTINF:-1 group-title="KINO+📺",Кино Kомедия HD
+https://vod.splay.uz/live_splay/original/Kinokomediya/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="KINO+📺",Кинокомедия HD
 http://95.85.109.219:7000/play/a086
-
-#EXTINF:-1 tvg-id="kinomiks" tvg-logo="https://i.imgur.com/bcd890.png" group-title="КИНО И СЕРИАЛЫ",Киномикс
-http://95.85.109.219:7000/play/a084
-
-#EXTINF:-1 tvg-id="kinosemya" tvg-logo="https://i.imgur.com/efg123.png" group-title="КИНО И СЕРИАЛЫ",Киносемья
-http://95.85.109.219:7000/play/a082
-
-#EXTINF:-1 tvg-id="kinosvidanie" tvg-logo="https://i.imgur.com/hij456.png" group-title="КИНО И СЕРИАЛЫ",Киносвидание
-http://95.85.109.219:7000/play/a083
-
-#EXTINF:-1 tvg-id="domkino" tvg-logo="https://i.imgur.com/klm789.png" group-title="КИНО И СЕРИАЛЫ",Дом кино
-http://95.85.109.219:7000/play/a099
-
-#EXTINF:-1 tvg-id="nst" tvg-logo="https://i.imgur.com/nop012.png" group-title="КИНО И СЕРИАЛЫ",НСТ
+#EXTINF:-1 group-title="KINO+📺",Киномикс FULHD
+http://87.246.54.249:8085/Kinomiks/mpegts
+#EXTINF:-1 group-title="KINO+📺",Киномикс HD
+https://vod.splay.uz/live_splay/original/KinomiksHD/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="KINO+📺",КиноCерия
+http://46.8.46.14/kinoseria/index.m3u8
+#EXTINF:-1 group-title="KINO+📺",Киносерия HD
+http://95.85.109.219:7000/play/a087
+#EXTINF:-1 group-title="KINO+📺",Киносвидание HD
+http://vod.splay.uz/live_splay/original/Kinosvidanie/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="KINO+📺",ТВ 1000HD
+https://vod.splay.uz/live_splay/original/TV1000/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="KINO+📺",Новосілки ТБ
+http://filmtvgroup.hopto.org/novosilkiTB/index.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NjEwMDgwNzMsImV4cCI6MTc2MTA5NDQ3Mywic3ViIjoiQWRtaW4ifQ.q63jEFty3Ry19ORUfTNUPhkvCSFnFBk9mHhXIwaxgLQ
+#EXTINF:-1 group-title="KINO+📺",FILM TV Кінозал
+http://filmtvgroup.hopto.org/FILMTVKinozaL/index.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NjEwMDgwNzMsImV4cCI6MTc2MTA5NDQ3Mywic3ViIjoiQWRtaW4ifQ.q63jEFty3Ry19ORUfTNUPhkvCSFnFBk9mHhXIwaxgLQ
+#EXTINF:-1 group-title="KINO+📺",Бровари Кіно TV
+https://live20.bozztv.com/giatv/giatv-88882com/88882com/chunks.m3u8
+#EXTINF:-1 group-title="KINO+📺",План Б
+http://195.64.140.147:10082/82
+#EXTINF:-1 group-title="KINO+📺",Евро кино
+http://31.148.48.15/Evrokino/tracks-v1a1/mono.m3u8?token=iptv.org.ua
+#EXTINF:-1 group-title="KINO+📺",ТВ 21
+http://46.8.46.14/TV21/index.m3u8
+#EXTINF:-1 group-title="KINO+📺",TВ 21М
+http://217.21.34.160:38007/tv-xxi/index.m3u8
+#EXTINF:-1 group-title="KINO+📺",Кино ТВ HD
+http://46.8.46.14/kinotv/index.m3u8
+#EXTINF:-1 group-title="KINO+📺",Кино ТВ|HD
+http://195.64.140.147:10050/50
+#EXTINF:-1 group-title="KINO+📺",OTV (Латвия)
+http://84.245.224.71/OTV/mono.m3u8
+#EXTINF:-1 group-title="KINO+📺",БОЛТ UA HD
+http://84.245.224.71/BoltHD/mono.m3u8
+#EXTINF:-1 group-title="KINO+📺",Индийское Кино sd
+http://46.8.46.14/indiatv/index.m3u8
+#EXTINF:-1 group-title="KINO+📺",Нове тв
+https://novoe.top/nove_tv.m3u8.jpg?m3u8
+#EXTINF:-1 group-title="KINO+📺",Киноужас HD
+http://95.85.109.219:7000/play/a00y
+#EXTINF:-1 group-title="KINO+📺",НСТВ
 http://95.85.109.219:7000/play/a097
-
-#EXTINF:-1 tvg-id="illyuzion" tvg-logo="https://i.imgur.com/qrs345.png" group-title="КИНО И СЕРИАЛЫ",Иллюзион+
-http://95.85.109.219:7000/play/a098
-
-##############################
-### 📡 РАЗВЛЕКАТЕЛЬНЫЕ
-##############################
-
-#EXTINF:-1 tvg-id="tnt" tvg-logo="https://i.imgur.com/tuv678.png" group-title="РАЗВЛЕКАТЕЛЬНЫЕ",ТНТ
-http://95.85.109.219:7000/play/a006
-
-#EXTINF:-1 tvg-id="sts" tvg-logo="https://i.imgur.com/wxy901.png" group-title="РАЗВЛЕКАТЕЛЬНЫЕ",СТС
-http://95.85.109.219:7000/play/a007
-
-#EXTINF:-1 tvg-id="tv3" tvg-logo="https://i.imgur.com/zab234.png" group-title="РАЗВЛЕКАТЕЛЬНЫЕ",ТВ3
-http://95.85.109.219:7000/play/a008
-
-#EXTINF:-1 tvg-id="pyatnica" tvg-logo="https://i.imgur.com/cde567.png" group-title="РАЗВЛЕКАТЕЛЬНЫЕ",Пятница
-http://95.85.109.219:7000/play/a009
-
-#EXTINF:-1 tvg-id="domashniy" tvg-logo="https://i.imgur.com/fgh890.png" group-title="РАЗВЛЕКАТЕЛЬНЫЕ",Домашний
-http://95.85.109.219:7000/play/a010
-
-#EXTINF:-1 tvg-id="yu" tvg-logo="https://i.imgur.com/ijk123.png" group-title="РАЗВЛЕКАТЕЛЬНЫЕ",Ю
-http://95.85.109.219:7000/play/a011
-
-#EXTINF:-1 tvg-id="che" tvg-logo="https://i.imgur.com/lmn456.png" group-title="РАЗВЛЕКАТЕЛЬНЫЕ",Че
-http://95.85.109.219:7000/play/a014
-
-#EXTINF:-1 tvg-id="2x2" tvg-logo="https://i.imgur.com/opq789.png" group-title="РАЗВЛЕКАТЕЛЬНЫЕ",2x2
-http://95.85.109.219:7000/play/a015
-
-##############################
-### 📰 НОВОСТИ
-##############################
-
-#EXTINF:-1 tvg-id="rbc" tvg-logo="https://i.imgur.com/rst012.png" group-title="НОВОСТИ",РБК
-http://95.85.109.219:7000/play/a016
-
-#EXTINF:-1 tvg-id="euronews" tvg-logo="https://i.imgur.com/uvw345.png" group-title="НОВОСТИ",Euronews
-http://95.85.109.219:7000/play/a071
-
-#EXTINF:-1 tvg-id="dozhd" tvg-logo="https://i.imgur.com/xyz678.png" group-title="НОВОСТИ",Дождь
-https://wl.tvrain.tv/transcode/ngrp:ses_all/playlist.m3u8
-
-#EXTINF:-1 tvg-id="vesti" tvg-logo="https://i.imgur.com/abc901.png" group-title="НОВОСТИ",Вести
-http://95.85.109.219:7000/play/a017
-
-##############################
-### ⚽ СПОРТ
-##############################
-
-#EXTINF:-1 tvg-id="matchtv" tvg-logo="https://i.imgur.com/def234.png" group-title="СПОРТ",Матч ТВ
-http://95.85.109.219:7000/play/a018
-
-#EXTINF:-1 tvg-id="matcharena" tvg-logo="https://i.imgur.com/ghi567.png" group-title="СПОРТ",Матч! Арена
-http://95.85.109.219:7000/play/a019
-
-#EXTINF:-1 tvg-id="matchigra" tvg-logo="https://i.imgur.com/jkl890.png" group-title="СПОРТ",Матч! Игра
-http://95.85.109.219:7000/play/a020
-
-#EXTINF:-1 tvg-id="eurosport1" tvg-logo="https://i.imgur.com/mno123.png" group-title="СПОРТ",Eurosport 1
-http://95.85.109.219:7000/play/a076
-
-#EXTINF:-1 tvg-id="eurosport2" tvg-logo="https://i.imgur.com/pqr456.png" group-title="СПОРТ",Eurosport 2
-http://95.85.109.219:7000/play/a077
-
-#EXTINF:-1 tvg-id="khl" tvg-logo="https://i.imgur.com/stu789.png" group-title="СПОРТ",КХЛ ТВ
-http://95.85.109.219:7000/play/a078
-
-##############################
-### 🌍 ПОЗНАВАТЕЛЬНЫЕ
-##############################
-
-#EXTINF:-1 tvg-id="nauka" tvg-logo="https://i.imgur.com/vwx012.png" group-title="ПОЗНАВАТЕЛЬНЫЕ",Наука 2.0
-http://95.85.109.219:7000/play/a079
-
-#EXTINF:-1 tvg-id="myplanet" tvg-logo="https://i.imgur.com/yza345.png" group-title="ПОЗНАВАТЕЛЬНЫЕ",Моя планета
-http://95.85.109.219:7000/play/a080
-
-#EXTINF:-1 tvg-id="discovery" tvg-logo="https://i.imgur.com/bcd678.png" group-title="ПОЗНАВАТЕЛЬНЫЕ",Discovery
-http://95.85.109.219:7000/play/a081
-
-#EXTINF:-1 tvg-id="natgeo" tvg-logo="https://i.imgur.com/efg901.png" group-title="ПОЗНАВАТЕЛЬНЫЕ",National Geographic
-http://95.85.109.219:7000/play/a063
-
-#EXTINF:-1 tvg-id="natgeowild" tvg-logo="https://i.imgur.com/hij234.png" group-title="ПОЗНАВАТЕЛЬНЫЕ",Nat Geo Wild
-http://95.85.109.219:7000/play/a064
-
-#EXTINF:-1 tvg-id="viasathistory" tvg-logo="https://i.imgur.com/klm567.png" group-title="ПОЗНАВАТЕЛЬНЫЕ",Viasat History
-http://95.85.109.219:7000/play/a092
-
-##############################
-### 👶 ДЕТСКИЕ
-##############################
-
-#EXTINF:-1 tvg-id="karusel" tvg-logo="https://i.imgur.com/nop890.png" group-title="ДЕТСКИЕ",Карусель
-http://95.85.109.219:7000/play/a021
-
-#EXTINF:-1 tvg-id="mult" tvg-logo="https://i.imgur.com/qrs123.png" group-title="ДЕТСКИЕ",Мульт
+#EXTINF:-1 group-title="KINO+📺",НСТВ sd
+http://195.64.140.147:10054/54
+#EXTINF:-1 group-title="KINO+📺",31 канал KZ
+http://sc.id-tv.kz/31Kanal_34_35.m3u8
+#EXTINF:-1 group-title="KINO+📺",TV-1 KG FHD Бишкек CITY
+http://212.2.225.30:1935/live/site.stream/playlist.m3u8
+#EXTINF:-1 group-title="KINO+📺", Usba Кинозал 3
+https://fl1001.bozztv.com/ushba24/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="KINO+📺", Usba Кинозал 4
+https://fl1001.bozztv.com/ushba26/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="KINO+📺", Usba Кинозал 6
+https://fl1001.bozztv.com/ushba-films-c/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="KINO+📺", Usba Кинозал 7
+https://fl1001.bozztv.com/ushba-films-d/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="KINO+📺", Usba Кинозал 8
+https://fl1001.bozztv.com/ushba-films-e/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="KINO+📺", Usba Кинозал 9
+https://fl1001.bozztv.com/ushba-films-f/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="KINO+📺", Usba Кинозал 10
+https://fl1001.bozztv.com/ushba-films-g/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="KINO+📺", Usba Кинозал 11
+https://fl1001.bozztv.com/ushba-films-h/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="KINO+📺", Usba Кинозал 12
+https://fl1001.bozztv.com/ushba-films-i/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="KINO+📺", Usba Кинозал 13
+https://fl1001.bozztv.com/ushba-films-j/index.m3u8
+#EXTINF:-1 group-title="KINO+📺", Usba Кинозал 14
+https://fl1001.bozztv.com/ushba-films-m/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="KINO+📺", Usba Кинозал 15
+https://fl1001.bozztv.com/ushba-films-p/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="KINO+📺", Usba Кинозал 16
+https://fl1001.bozztv.com/ushba-films-t/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="KINO+📺", Usba Кинозал 17
+https://fl1001.bozztv.com/ushba-films-yz/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="KINO+📺", Usba Кинозал 18
+https://fl1001.bozztv.com/ushba-films-n/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="KINO+📺", Usba Кинозал 19
+https://fl1001.bozztv.com/ushba-films-qr/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="KINO+📺", Usba Кинозал 20
+https://fl1001.bozztv.com/ushba-films-uv/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="KINO+📺", Usba Кинозал 21
+https://fl1001.bozztv.com/ushba-films-o/index.m3u8
+#EXTINF:-1 group-title="KINO+📺", Usba Кинозал 22
+https://fl1001.bozztv.com/ushba-films-s/index.m3u8
+#EXTINF:-1 group-title="KINO+📺", Usba Кинозал 23
+https://fl1001.bozztv.com/ushba-films-w/index.m3u8
+#EXTINF:-1 group-title="KINO+📺", Usba Кинозал 24
+https://fl1001.bozztv.com/ushba-rfilrms-0/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="KINO+📺", Usba Кинозал 25
+https://fl1001.bozztv.com/ushba-rfilrms-a/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="KINO+📺", Usba Кинозал 26
+https://fl1001.bozztv.com/ushba-rfilrms-b/index.m3u8
+#EXTINF:-1 group-title="KINO+📺", Usba Кинозал 27
+https://fl1001.bozztv.com/ushba-rfilrms-c/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="KINO+📺", Usba Кинозал 28
+https://fl1001.bozztv.com/ushba-rfilrms-d/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="KINO+📺", Usba Кинозал 29
+https://fl1001.bozztv.com/ushba-rfilrms-e/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="KINO+📺", Usba Кинозал 30
+https://fl1001.bozztv.com/ushba-rfilrms-g/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="KINO+📺", Usba Кинозал 31
+https://fl1001.bozztv.com/ushba-rfilrms-i/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="KINO+📺", Usba Кинозал 33
+https://fl1001.bozztv.com/ushba-rfilrms-p/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="KINO+📺", Usba Кинозал 34
+https://fl1001.bozztv.com/ushba-rfilrms-v/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="KINO+📺", Usba Кинозал 35
+https://fl1001.bozztv.com/ushba-rfilrms-z/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="KINO+📺", Usba Кинозал 36
+https://fl1001.bozztv.com/ushba64/index.m3u8
+#EXTINF:-1 group-title="KINO+📺", Usba Кинозал 37
+https://fl1001.bozztv.com/ushba65/index.m3u8
+#EXTINF:-1 group-title="KINO+📺",Timeless Dizi Channel 720х576
+http://194.158.222.36:6086
+#EXTINF:-1 group-title="KINO+📺",Дорама HD
+http://95.85.109.219:7000/play/a05v
+#EXTINF:-1 group-title="KINO+📺",Dom_Kino Премиум
+http://84.54.128.52:9090/play/a001/index.m3u8
+#EXTINF:-1 group-title="KINO+📺",СТС SD
+https://streaming.goodstream.cyou/live/296.m3u8
+#EXTINF:-1 group-title="KINO+📺", Бестселлер
+http://46.8.46.14/rubestseller/index.m3u8
+#EXTINF:-1 group-title="KINO+📺", Роман HD
+http://46.8.46.14/ruroman/index.m3u8
+#EXTINF:-1 group-title="KINO+📺",Че!
+http://5.188.221.43:8080/play/che
+#EXTINF:-1 group-title="KINO+📺",ТV 3
+http://5.188.221.43:8080/play/tv3
+#EXTINF:-1 group-title="KINO+📺",Пятница! International
+http://158.101.222.193:88/georgia_play.php?id=friday
+#EXTINF:-1 group-title="KINO+📺",ЛЮБИМОЕ КИНО HD
+http://84.54.128.52:9090/play/a002/index.m3u8
+#EXTINF:-1 group-title="KINO+📺",Золотая коллекция Мосфильма
+http://95.85.109.219:7000/play/a08u
+#EXTINF:-1 group-title="KINO+📺",Бел 3 HD
+https://edge50.dc.beltelecom.by/ngtrk/smil:belarus3.smil/chunklist_b5160000_sleng.m3u8
+#EXTINF:-1 group-title="KINO+📺",Ностальгия [R]
+http://31.148.48.15:80/Nostalgiya/index.m3u8
+#EXTINF:-1 group-title="Україна 🇺🇦",ПЕРШИЙ
+https://tva.in.ua/live/first.m3u8
+#EXTINF:-1 group-title="Україна 🇺🇦",ПЕРШИЙ HD
+https://api-tv.ipnet.ua/api/v1/manifest/2118742505.m3u8
+#EXTINF:-1 group-title="Україна 🇺🇦",1+1 Україна
+http://50.7.28.226/8482/index.m3u8
+#EXTINF:-1 group-title="Україна 🇺🇦",1+1 Україна HD
+https://blueberry.uvs.onlinetv.link/cdn_origin2/1plus1/chunks.m3u8
+#EXTINF:-1 group-title="Україна 🇺🇦",Мега
+https://blueberry.uvs.onlinetv.link/cdn_origin2/mega_ua/chunks.m3u8
+#EXTINF:-1 group-title="Україна 🇺🇦",Enter-фільм
+http://50.7.28.226/9327/index.m3u8
+#EXTINF:-1 group-title="Україна 🇺🇦",БІГУДІ
+http://50.7.28.226/9328/index.m3u8
+#EXTINF:-1 group-title="Україна 🇺🇦",БОЛТ
+http://50.7.28.226/9329/index.m3u8
+#EXTINF:-1 group-title="Україна 🇺🇦",ОЦЕ
+http://50.7.28.226/9324/index.m3u8
+#EXTINF:-1 group-title="Україна 🇺🇦",Сine+ legend
+http://193.27.209.122/cine_plus_legend/index.m3u8
+#EXTINF:-1 group-title="Україна 🇺🇦",Usba TV - Україна
+https://fl1001.bozztv.com/ushba5/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Україна 🇺🇦",Usba TV - Україна 2
+https://fl1001.bozztv.com/ushba12/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Україна 🇺🇦",Сонце HD TV
+https://tva.in.ua/live/sonce.m3u8
+#EXTINF:-1 group-title="Україна 🇺🇦",МИ+ УКРАЇНА HD
+https://api-tv.ipnet.ua/api/v1/manifest/2118742680.m3u8
+#EXTINF:-1 group-title="Україна 🇺🇦",Перший Кабельний
+http://91.226.35.134:8081/PK
+#EXTINF:-1 group-title="Україна 🇺🇦",Суспільне Київ HD TV
+https://ext.cdn.nashnet.tv/228.0.0.41/index.m3u8
+#EXTINF:-1 group-title="Україна 🇺🇦",Суспільне Крим TV
+https://ext.cdn.nashnet.tv/228.0.0.71/index.m3u8
+#EXTINF:-1 group-title="Україна 🇺🇦",Суспільне Культура HD TV
+https://ext.cdn.nashnet.tv/228.0.0.141/index.m3u8
+#EXTINF:-1 group-title="Україна 🇺🇦",Орбiта tva.org.ua
+http://ftp.orbita.dn.ua/hls/orbita.m3u8
+#EXTINF:-1 group-title="Україна 🇺🇦",Круг (Одеса)
+http://cdn1.live-tv.od.ua:8081/krugod/krugod-abr-lq/playlist.m3u8
+#EXTINF:-1 group-title="Україна 🇺🇦",5 Канал HD
+https://api-tv.ipnet.ua/api/v1/manifest/2118742539.m3u8
+#EXTINF:-1 group-title="Україна 🇺🇦",7 КАНАЛ
+https://ext.cdn.nashnet.tv/228.0.0.162/index.m3u8
+#EXTINF:-1 group-title="Україна 🇺🇦",8 канал HD TV
+https://ext.cdn.nashnet.tv/228.0.0.138/index.m3u8
+#EXTINF:-1 group-title="Україна 🇺🇦",Армія ТБ
+https://api-tv.ipnet.ua/api/v1/manifest/2118742632.m3u8
+#EXTINF:-1 group-title="Україна 🇺🇦",24 канал TV
+https://ext.cdn.nashnet.tv/228.0.0.33/index.m3u8
+#EXTINF:-1 group-title="Україна 🇺🇦",24 Канал
+http://streamvideol1.luxnet.ua/news24/smil:news24.stream.smil/chunklist.m3u8
+#EXTINF:-1 group-title="Україна 🇺🇦",КИЇВ 24
+https://ext.cdn.nashnet.tv/228.0.0.15/index.m3u8
+#EXTINF:-1 group-title="Україна 🇺🇦",СK 1
+http://cdn10.live-tv.od.ua:8081/sk1zt/sk1zt720p/playlist.m3u8
+#EXTINF:-1 group-title="Україна 🇺🇦",ПРЯМИЙ HD
+https://ext.cdn.nashnet.tv/228.0.0.122/index.m3u8
+#EXTINF:-1 group-title="Україна 🇺🇦",FREEдом
+http://95.67.106.242/mobile-app/main/freedom/master.m3u8
+#EXTINF:-1 group-title="Україна 🇺🇦",Надія/N.K.
+http://nadiya.home-net.com.ua/mob/mystream.m3u8
+#EXTINF:-1 group-title="Україна 🇺🇦",ТРК Надія - Новий Канал (Первомайский)
+http://178.217.215.57/mob/mystream.m3u8
+#EXTINF:-1 group-title="Україна 🇺🇦",ЕСПРЕСО HD
+https://ext.cdn.nashnet.tv/228.0.0.191/index.m3u8
+#EXTINF:-1 group-title="Україна 🇺🇦",РАДА HD
+https://ext.cdn.nashnet.tv/228.0.0.24/index.m3u8
+#EXTINF:-1 group-title="Україна 🇺🇦",Тернопіль 1
+http://185.53.79.12/ternopil1/index.m3u8?cur=tva.org.ua&key=3i277
+#EXTINF:-1 group-title="Україна 🇺🇦",Тернопiль 1 HD
+http://ott.columbus.te.ua/ternopil1/index.m3u8?cur=tva.org.ua&key=3i277
+#EXTINF:-1 group-title="Україна 🇺🇦",НТК Коломия
+https://stream.ntktv.ua/s/ntk/ntk.m3u8?cur=tva.org.ua&key=3i277
+#EXTINF:-1 group-title="Україна 🇺🇦",ТВА tva*org-ua
+http://hls.cdn.ua/tva.ua_live/_definst_/livestream/playlist.m3u8
+#EXTINF:-1 group-title="Україна 🇺🇦",ТВА tva*in-ua
+http://rtsp.cdn.ua/tva.ua_live/_definst_/livestream/playlist.m3u8
+#EXTINF:-1 group-title="Україна 🇺🇦",ГІТ (Волинь)
+http://stream.uagit.tv/gittv.m3u8?key=iptv.org.ua
+#EXTINF:-1 group-title="Україна 🇺🇦",33 канал
+https://33news.org/33chanel/live/chunklist_w1484176056.m3u8
+#EXTINF:-1 group-title="Україна 🇺🇦",33 канал (Хмельницький)
+https://33news.org/33chanel/live/chunklist_w459617257.m3u8
+#EXTINF:-1 group-title="Україна 🇺🇦",Перший міський Кривий Ріг
+https://cdn1.live-tv.cloud/1tvkr/1tvkr-abr-lq/playlist.m3u8
+#EXTINF:-1 group-title="Україна 🇺🇦",Перший міський Одеса HD
+http://91.194.79.46:8081/stream1/channel1/playlist.m3u8
+#EXTINF:-1 group-title="Україна 🇺🇦",ЧОРНОМОРСКЕ HD TV
+https://ext.cdn.nashnet.tv/228.0.0.136/index.m3u8
+#EXTINF:-1 group-title="Україна 🇺🇦",Аверс (Луцьк)
+https://avers.pp.ua/hls/efir.m3u8?key=iptv*org*ua
+#EXTINF:-1 group-title="Україна 🇺🇦",Балта ТВ HD
+http://194.50.51.34/playlist.m3u8
+#EXTINF:-1 group-title="Україна 🇺🇦",Глас
+http://85.238.112.69:8811/hls_sec/239.0.4.18-.m3u8
+#EXTINF:-1 group-title="Україна 🇺🇦",Чернівецький Промінь HD
+http://langate.tv/promin/live_720/index.m3u8
+#EXTINF:-1 group-title="Україна 🇺🇦",СК1 (Житомир)
+http://cdn10.live-tv.od.ua:8081/sk1zt/sk1zt-abr-lq/playlist.m3u8
+#EXTINF:-1 group-title="Україна 🇺🇦",НТК
+http://stream.ntktv.ua/s/ntk/ntk.m3u8
+#EXTINF:-1 group-title="Україна 🇺🇦",Сфера ТВ
+http://cdn10.live-tv.od.ua:8081/sferarv/720p/playlist.m3u8
+#EXTINF:-1 group-title="Україна 🇺🇦",АПОСТРОФ
+https://ext.cdn.nashnet.tv/228.0.2.165/index.m3u8
+#EXTINF:-1 group-title="Казахстан 🇰🇿",Хабар
+http://sc.id-tv.kz/Khabar.m3u8
+#EXTINF:-1 group-title="Казахстан 🇰🇿",Хабар 24
+http://sc.id-tv.kz/Khabar_24.m3u8
+#EXTINF:-1 group-title="Казахстан 🇰🇿",КТК
+http://sc.id-tv.kz/KTK_34_35.m3u8
+#EXTINF:-1 group-title="Казахстан 🇰🇿",Седьмой канал
+http://sc.id-tv.kz/7_kanal_34_35.m3u8
+#EXTINF:-1 group-title="Кыргызстан 🇰🇬",312Кино
+http://176.126.166.43:1935/live/312kino/playlist.m3u8
+#EXTINF:-1 group-title="🔎 ПОЗНАВАТЕЛЬНЫЕ",Рыбалка
+http://iptv.prosto.tv:7000/ch344/video.m3u8
+#EXTINF:-1 group-title="🔎 ПОЗНАВАТЕЛЬНЫЕ",Дача
+http://84.245.224.71/DachaHD/mono.m3u8
+#EXTINF:-1 group-title="🔎 ПОЗНАВАТЕЛЬНЫЕ",ЗЖ
+http://185.57.68.33/40/index.m3u8
+#EXTINF:-1 group-title="🔎 ПОЗНАВАТЕЛЬНЫЕ",Тайны галактики HD
+http://95.85.109.219:7000/play/a06b
+#EXTINF:-1 group-title="🔎 ПОЗНАВАТЕЛЬНЫЕ",ЗООПАРК
+http://217.21.34.160:38003/zoopark/index.m3u8
+#EXTINF:-1 group-title="🔎 ПОЗНАВАТЕЛЬНЫЕ",24 Техно
+http://217.21.34.160:38007/tehno24/index.m3u8
+#EXTINF:-1 group-title="🔎 ПОЗНАВАТЕЛЬНЫЕ",Дикая охота HD
+http://217.21.34.160:38007/dikayaohotahd/index.m3u8
+#EXTINF:-1 group-title="🔎 ПОЗНАВАТЕЛЬНЫЕ",Дикая рыбалка HD
+http://217.21.34.160:38007/dikayarybalkahd/index.m3u8
+#EXTINF:-1 group-title="🔎 ПОЗНАВАТЕЛЬНЫЕ",Глазами туриста
+http://217.21.34.160:38007/glazami_turista/index.m3u8
+#EXTINF:-1 group-title="🔎 ПОЗНАВАТЕЛЬНЫЕ",Охотник и рыболов HD
+http://46.8.46.14/ohota/index.m3u8
+#EXTINF:-1 group-title="🔎 ПОЗНАВАТЕЛЬНЫЕ",ЗДОРОВОЕ ТВ 2
+http://195.64.140.147:10171/171
+#EXTINF:-1 group-title="🔎 ПОЗНАВАТЕЛЬНЫЕ",ЖИВИ
+http://195.64.140.147:10178/178
+#EXTINF:-1 group-title="🔎 ПОЗНАВАТЕЛЬНЫЕ",НАША ТЕМА
+http://195.64.140.147:10172/172
+#EXTINF:-1 group-title="🔎 ПОЗНАВАТЕЛЬНЫЕ",ПОЕХАЛИ
+http://195.64.140.147:10168/168
+#EXTINF:-1 group-title="🔎 ПОЗНАВАТЕЛЬНЫЕ",И
+http://195.64.140.147:10156/156
+#EXTINF:-1 group-title="🔎 ПОЗНАВАТЕЛЬНЫЕ",ДИКИЙ охота и рыбалка
+http://195.64.140.147:10139/139
+#EXTINF:-1 group-title="🔎 ПОЗНАВАТЕЛЬНЫЕ",Мужской
+http://158.101.222.193:88/georgia_play.php?id=muzhskoy
+#EXTINF:-1 group-title="🔎 ПОЗНАВАТЕЛЬНЫЕ",Точка
+http://94.232.127.28:8080/hdlife/index.m3u8
+#EXTINF:-1 group-title="🔎 ПОЗНАВАТЕЛЬНЫЕ",ДРАЙВ 20
+http://185.164.82.18:9009/aDxLhVQm_Drive
+#EXTINF:-1 group-title="🔎 ПОЗНАВАТЕЛЬНЫЕ",Моя планета HD
+http://185.46.16.239:8000/Planeta_HD
+#EXTINF:-1 group-title="🔎 ПОЗНАВАТЕЛЬНЫЕ",МЕГА HD
+http://141.95.55.143/CH4679/index.m3u8
+#EXTINF:-1 group-title="🔎 ПОЗНАВАТЕЛЬНЫЕ",ТРОФЕЙ
+http://141.95.55.143/CH7605/index.m3u8
+#EXTINF:-1 group-title="🔎 ПОЗНАВАТЕЛЬНЫЕ",ТЕРА
+http://141.95.55.143/CH7601/index.m3u8
+#EXTINF:-1 group-title="🔎 ПОЗНАВАТЕЛЬНЫЕ",УНІАН
+http://141.95.55.143/CH7599/index.m3u8
+#EXTINF:-1 group-title="🔎 ПОЗНАВАТЕЛЬНЫЕ",1 АВТОМОБІЛЬНИЙ
+http://141.95.55.143/CH1849/index.m3u8
+#EXTINF:-1 group-title="SPORT 🏆",Суспільне Kiev Спорт HD
+https://tva.in.ua/live/susp-sport.m3u8?key=fas-tv.com
+#EXTINF:-1 group-title="SPORT 🏆",NHL (Интересные моменты)
+https://nhl-firetv.amagi.tv/playlist.m3u8
+#EXTINF:-1 group-title="SPORT 🏆",Сетанта Спорт 1
+http://95.85.109.219:7000/play/a067
+#EXTINF:-1 group-title="SPORT 🏆",Сетанта Спорт 2
+http://95.85.109.219:7000/play/a068
+#EXTINF:-1 group-title="SPORT 🏆",БОКС ТВ
+http://95.85.109.219:7000/play/a08a
+#EXTINF:-1 group-title="SPORT 🏆", КХЛ ТВ HD
+http://84.245.224.71/KHLHD/mono.m3u8
+#EXTINF:-1 group-title="SPORT 🏆",Боец
+http://87.120.142.11:18000/Match!
+#EXTINF:-1 group-title="SPORT 🏆",Игра
+http://87.120.142.11:18000/Match!Igra
+#EXTINF:-1 group-title="SPORT 🏆",Матч
+https://32tech0steam0dp01.org/test/matchtv/chunks.m3u8
+#EXTINF:-1 group-title="SPORT 🏆",Спорт!Футбол1 HD
+http://195.64.140.147:10100/100
+#EXTINF:-1 group-title="SPORT 🏆",Спорт!Футбол2 HD
+http://195.64.140.147:10101/101
+#EXTINF:-1 group-title="SPORT 🏆",Спорт!Футбол3 HD
+http://195.64.140.147:10102/102
+#EXTINF:-1 group-title="SPORT 🏆",Спорт!Арена
+http://195.64.140.147:10096/96
+#EXTINF:-1 group-title="SPORT 🏆",Спорт!Страна
+http://195.64.140.147:10099/99
+#EXTINF:-1 group-title="SPORT 🏆",Мир баскетбола
+http://195.64.140.147:10111/111
+#EXTINF:-1 group-title="SPORT 🏆",Футбол
+http://195.64.140.147:10107/107
+#EXTINF:-1 group-title="SPORT 🏆",SPORT!!! Арена
+http://46.8.46.14/arena/index.m3u8
+#EXTINF:-1 group-title="SPORT 🏆",Матч ТВ
+http://46.8.46.14/match/index.m3u8
+#EXTINF:-1 group-title="SPORT 🏆",SPORT!!! Игра
+http://46.8.46.14/eurosport/index.m3u8
+#EXTINF:-1 group-title="SPORT 🏆",SPORT!!! Боец
+http://46.8.46.14/boec/index.m3u8
+#EXTINF:-1 group-title="SPORT 🏆", Премьер
+http://46.8.46.14/premier/index.m3u8
+#EXTINF:-1 group-title="SPORT 🏆", Окко Футбол HD
+http://50.7.28.226/9170/index.m3u8
+#EXTINF:-1 group-title="SPORT 🏆", Окко Спорт 2 HD
+http://50.7.28.226/9183/index.m3u8
+#EXTINF:-1 group-title="SPORT 🏆", Волейбол
+http://50.7.28.226/9192/index.m3u8
+#EXTINF:-1 group-title="SPORT 🏆",СЕТАНТА+ UA
+http://141.95.55.143/CH7609/index.m3u8
+#EXTINF:-1 group-title="CHILDREN'S",Кнопка ТВ
+http://api.alpaca.t62a.com/hls/9116/stream0.m3u8
+#EXTINF:-1 group-title="CHILDREN'S",Мультиландия
+http://217.11.177.55/streams/media/multilandiya_720x576/index.m3u8
+#EXTINF:-1 group-title="CHILDREN'S",Карусель
+http://95.85.109.219:7000/play/a08p
+#EXTINF:-1 group-title="CHILDREN'S",В гостях у сказки HD
+http://95.85.109.219:7000/play/a09b
+#EXTINF:-1 group-title="CHILDREN'S",Мульт
 http://95.85.109.219:7000/play/a096
-
-#EXTINF:-1 tvg-id="stskids" tvg-logo="https://i.imgur.com/tuv456.png" group-title="ДЕТСКИЕ",СТС Kids
-http://95.85.109.219:7000/play/a022
-
-#EXTINF:-1 tvg-id="nickelodeon" tvg-logo="https://i.imgur.com/wxy789.png" group-title="ДЕТСКИЕ",Nickelodeon
-http://95.85.109.219:7000/play/a023
-
-#EXTINF:-1 tvg-id="cartoon" tvg-logo="https://i.imgur.com/zab012.png" group-title="ДЕТСКИЕ",Cartoon Network
-http://95.85.109.219:7000/play/a024
-
-#EXTINF:-1 tvg-id="tiji" tvg-logo="https://i.imgur.com/cde345.png" group-title="ДЕТСКИЕ",TiJi
-http://95.85.109.219:7000/play/a025
-
-##############################
-### 🎵 МУЗЫКА
-##############################
-
-#EXTINF:-1 tvg-id="muztv" tvg-logo="https://i.imgur.com/fgh678.png" group-title="МУЗЫКА",Муз-ТВ
-http://95.85.109.219:7000/play/a026
-
-#EXTINF:-1 tvg-id="europaplus" tvg-logo="https://i.imgur.com/ijk901.png" group-title="МУЗЫКА",Europa Plus TV
-http://95.85.109.219:7000/play/a027
-
-#EXTINF:-1 tvg-id="bridgetv" tvg-logo="https://i.imgur.com/lmn234.png" group-title="МУЗЫКА",Bridge TV
-http://95.85.109.219:7000/play/a028
-
-#EXTINF:-1 tvg-id="shanson" tvg-logo="https://i.imgur.com/opq567.png" group-title="МУЗЫКА",Шансон ТВ
-http://95.85.109.219:7000/play/a029
-
-##############################
-### 🍳 КУЛИНАРИЯ И СТИЛЬ ЖИЗНИ
-##############################
-
-#EXTINF:-1 tvg-id="kuhnya" tvg-logo="https://i.imgur.com/rst890.png" group-title="КУЛИНАРИЯ И СТИЛЬ ЖИЗНИ",Кухня ТВ
-http://95.85.109.219:7000/play/a030
-
-#EXTINF:-1 tvg-id="eda" tvg-logo="https://i.imgur.com/uvw123.png" group-title="КУЛИНАРИЯ И СТИЛЬ ЖИЗНИ",Еда HD
-http://95.85.109.219:7000/play/a031
-
-#EXTINF:-1 tvg-id="ohotarybalka" tvg-logo="https://i.imgur.com/xyz456.png" group-title="КУЛИНАРИЯ И СТИЛЬ ЖИЗНИ",Охота и рыбалка
-http://95.85.109.219:7000/play/a032
-
-#EXTINF:-1 tvg-id="autoplus" tvg-logo="https://i.imgur.com/abc789.png" group-title="КУЛИНАРИЯ И СТИЛЬ ЖИЗНИ",Авто Плюс
-http://95.85.109.219:7000/play/a033
-
-##############################
-### 🔞 18+ КАНАЛЫ
-##############################
-
-#EXTINF:-1 tvg-id="playboy" tvg-logo="https://i.imgur.com/def012.png" group-title="18+ КАНАЛЫ",Playboy TV
-http://193.27.209.122/playboy/index.m3u8
-
-#EXTINF:-1 tvg-id="hustler" tvg-logo="https://i.imgur.com/ghi345.png" group-title="18+ КАНАЛЫ",Hustler HD
-http://85.11.144.9:50999/30
-
-#EXTINF:-1 tvg-id="brazzers" tvg-logo="https://i.imgur.com/jkl678.png" group-title="18+ КАНАЛЫ",Brazzers TV
-http://88.212.7.11/live/test_brazzers_hd_hevc/playlist.m3u8
-
-#EXTINF:-1 tvg-id="dorcel" tvg-logo="https://i.imgur.com/mno901.png" group-title="18+ КАНАЛЫ",Dorcel TV
-http://88.212.7.11/live/test_dorcel_hd_hevc/playlist.m3u8
-
-#EXTINF:-1 tvg-id="erox" tvg-logo="https://i.imgur.com/pqr234.png" group-title="18+ КАНАЛЫ",Erox HD
-http://88.212.7.11/live/test_erox_hd_hevc/playlist.m3u8
-
-#EXTINF:-1 tvg-id="extasy" tvg-logo="https://i.imgur.com/stu567.png" group-title="18+ КАНАЛЫ",Extasy TV
-http://88.212.7.11/live/test_extasy_hd_hevc/playlist.m3u8
-
-#EXTINF:-1 tvg-id="realitykings" tvg-logo="https://i.imgur.com/vwx890.png" group-title="18+ КАНАЛЫ",Reality Kings
-http://88.212.7.11/live/test_realitykings_sd_hevc/playlist.m3u8
+#EXTINF:-1 group-title="CHILDREN'S",Чип и Дейл
+http://194.26.229.213/chip-n-dale-rescue-rangers/index.m3u8
+#EXTINF:-1 group-title="CHILDREN'S",Нікчемний Я 4 2024 професійний дубльований
+https://calypso.tortuga.tw/content/stream/films/despicable.me.4.2024.bdremux.1080p.ledoyen.dub_102367/hls/1080/index.m3u8
+#EXTINF:-1 group-title="CHILDREN'S",FILM TV GROUP МультКазки
+http://filmtvgroup.hopto.org/FILM_TV_GROUP_multkazkI/index.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NjEwMDgwNzMsImV4cCI6MTc2MTA5NDQ3Mywic3ViIjoiQWRtaW4ifQ.q63jEFty3Ry19ORUfTNUPhkvCSFnFBk9mHhXIwaxgLQ
+#EXTINF:-1 group-title="CHILDREN'S",FILM TV Леді Баг & Щенячий патруль.
+http://filmtvgroup.hopto.org/ledsbag_schenaychiy_patruL/index.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NjEwMDgwNzMsImV4cCI6MTc2MTA5NDQ3Mywic3ViIjoiQWRtaW4ifQ.q63jEFty3Ry19ORUfTNUPhkvCSFnFBk9mHhXIwaxgLQ
+#EXTINF:-1 group-title="CHILDREN'S",Том і Джеррі-Історія Лускунчика|2007|47 хв|США|мультфільм
+https://zetvideo.net/content/stream/films/tom_and_jerry._a_nutcracker_tale_2007_webdl_1080p_2xukr_eng_hurtom_26704/hls/1080/index.m3u8
+#EXTINF:-1 group-title="CHILDREN'S",Король Лев 3|2004|Хакуна Матата|Австралія|США
+https://zetvideo.net/content/stream/films/the.lion.king.3.2004.bdremux.1080p.ukr.eng_17258/hls/1080/index.m3u8
+#EXTINF:-1 group-title="CHILDREN'S",ДЕТСКИЙ МИР
+http://217.21.34.160:38007/detmir/index.m3u8
+#EXTINF:-1 group-title="CHILDREN'S",СТС Kids
+http://217.21.34.160:38007/stskids/index.m3u8
+#EXTINF:-1 group-title="CHILDREN'S",Уникум
+http://46.8.46.14/detskiy/index.m3u8
+#EXTINF:-1 group-title="CHILDREN'S",Рыжий
+http://46.8.46.14/Ryzhiy/index.m3u8
+#EXTINF:-1 group-title="CHILDREN'S",Супер герои
+http://195.64.140.147:10130/130
+#EXTINF:-1 group-title="CHILDREN'S",БОБЕР
+http://195.64.140.147:10163/163
+#EXTINF:-1 group-title="CHILDREN'S",МУЛЬТЛАНДИЯ
+http://195.64.140.147:10135/135
+#EXTINF:-1 group-title="CHILDREN'S",МУЛЬТМУЗЫКА
+http://195.64.140.147:10134/134
+#EXTINF:-1 group-title="CHILDREN'S",Супергерои
+http://158.101.222.193:88/georgia_play.php?id=malysh
+#EXTINF:-1 group-title="CHILDREN'S",Солнце
+http://5.188.221.43:8080/play/disney
+#EXTINF:-1 group-title="CHILDREN'S",Мульт HD
+http://185.46.16.239:8000/Mir_24
+#EXTINF:-1 group-title="CHILDREN'S",ПЛЮС ПЛЮС HD
+http://141.95.55.143/CH3285/index.m3u8
+#EXTINF:-1 group-title="CHILDREN'S",ПІКСЕЛЬ HD
+http://141.95.55.143/CH3317/index.m3u8
+#EXTINF:-1 group-title="CHILDREN'S",СУПЕР ГЕРОЙ SD
+http://141.95.55.143/CH877/index.m3u8
+#EXTINF:-1 group-title="МУЗИКА 🎶",Кино- Последний концерт в Лужниках
+https://v2.catcast.tv/videos/ch40908/171120210453_112762/video.mp4
+#EXTINF:-1 group-title="Кухня",Кулинар ТВ
+http://api.alpaca.t62a.com/hls/9110/stream0.m3u8
+#EXTINF:-1 group-title="Кухня",Кухня HD
+http://46.8.46.14/kuhnya/index.m3u8
+#EXTINF:-1 group-title="ОБЩИЕ",Каббала
+http://edge2.uk.kab.tv/rtplive/kabtv-rus-medium.stream/playlist.m3u8
+#EXTINF:-1 group-title="ОБЩИЕ",ДОЖДЬ
+https://wl.tvrain.tv/transcode/ngrp:ses_all/playlist.m3u8
+#EXTINF:-1 group-title="18+",18+ Кульминация Апокалипсиса
+https://video1.tizam.cc/films/Apocalypse-Climax1.mp4
+#EXTINF:-1 group-title="18+",18+ Грязные люди на работе
+https://video1.tizam.cc/films/DirtyMenAtWork.mp4
+#EXTINF:-1 group-title="18+",18+ грязные_девушки
+https://video1.tizam.cc/files/2492463/filthy_girls.mp4
+#EXTINF:-1 group-title="18+",18+ расположение макета
+https://video2.tizam.cc/files/1408676/raspolozhenie_layout__2007.mp4
+#EXTINF:-1 group-title="18+",18+ распутница
+https://video2.tizam.cc/files/2215569/rasputnitsa___la_libertine.mp4
+#EXTINF:-1 group-title="18+",18+ ревность
+https://video2.tizam.cc/files/1408706/revnost__jalousie__1994.mp4
+#EXTINF:-1 group-title="18+",18+ приключения робинзона крузо на острове греха
+https://video2.tizam.cc/files/1623843/priklyucheniya_robinzona_kruzo_na_ostrove_greha.mp4
+#EXTINF:-1 group-title="18+",18+ розовая тюрьма рус
+https://video2.tizam.cc/files/2224405/rozovaya_tyurma___pink_prison__rus.mp4
+#EXTINF:-1 group-title="18+",18+ Путь Рокко к любви
+https://video1.tizam.cc/vk/Roccos-Way-To-Love.mp4
+#EXTINF:-1 group-title="18+",18+ Роковая Орхидея 1 RUS
+https://video1.tizam.cc/old_films/Fatal-Orchid-RUS.mp4
+#EXTINF:-1 group-title="18+",18+ Роковая Орхидея 2 RUS
+https://video1.tizam.cc/old_films/Fatal-Orchid-2-RUS.mp4
+#EXTINF:-1 group-title="18+",18+ Роскошный 2
+https://video1.tizam.cc/old_films/Luxurious2.mp4
+#EXTINF:-1 group-title="18+",18+ Роскошный 4
+https://video1.tizam.cc/old_films/Luxurious4.mp4
+#EXTINF:-1 group-title="18+",18+ Роскошный 5
+https://video1.tizam.cc/old_films/Luxurious5.mp4
+#EXTINF:-1 group-title="Инет",ТНТ
+http://185.46.16.239:8000/TNT
+#EXTINF:-1 group-title="Инет",Пес и Ко
+http://185.46.16.239:8000/Pes_i_Ko
+#EXTINF:-1 group-title="Инет",Ю
+http://185.46.16.239:8000/YU_TV
+#EXTINF:-1 group-title="Инет",Драйв
+http://185.46.16.239:8000/Drayv
+#EXTINF:-1 group-title="Инет",Роман
+http://185.46.16.239:8000/Russkiy_roman
+#EXTINF:-1 group-title="Инет",МузТВ
+http://185.46.16.239:8000/Muz_TV
+#EXTINF:-1 group-title="Инет",Шансон ТВ
+http://185.46.16.239:8000/Shanson
+#EXTINF:-1 group-title="Инет",ТНТ Music
+http://185.46.16.239:8000/Nashe_TV
+#EXTINF:-1 group-title="Инет", Арена
+http://185.46.16.239:8000/Match_Arena
+#EXTINF:-1 group-title="Инет", Страна
+http://185.46.16.239:8000/Match_Nash_Sport
+#EXTINF:-1 group-title="UAB Airnet TV",КХЛ ТВ
+http://94.232.127.28:8080/khlhd/index.m3u8
+#EXTINF:-1 group-title="ОСС",Тедепутешествия
+http://178.217.72.72/teleputeshestviya/index.m3u8
+#EXTINF:-1 group-title="ОСС",Нано ТВ HD
+http://178.217.72.72/NANO_HD/index.m3u8
+#EXTINF:-1 group-title="ОСС",Дикий
+http://178.217.72.72/Dikiy/index.m3u8
+#EXTINF:-1 group-title="ОСС",Аппетитный
+http://178.217.72.72/Morskoy/index.m3u8
+#EXTINF:-1 group-title="ОСС",Время
+http://178.217.72.72/Vremya/index.m3u8
+#EXTINF:-1 group-title="ОСС",Дом Кино Премиум HD
+http://178.217.72.72/Dom_Kino_Premium_HD/index.m3u8
+#EXTINF:-1 group-title="ОСС",Домашний HD
+http://178.217.72.72/Domashniy/index.m3u8
+#EXTINF:-1 group-title="ОСС",Зоо ТВ
+http://178.217.72.72/zootv/index.m3u8
+#EXTINF:-1 group-title="ОСС",КВН ТВ
+http://178.217.72.72/KVN_TV/index.m3u8
+#EXTINF:-1 group-title="ОСС",Кинопоказ HD
+http://178.217.72.72/kinopokazhd/index.m3u8
+#EXTINF:-1 group-title="ОСС",Премиальное HD
+http://178.217.72.72/kinopremium/index.m3u8
+#EXTINF:-1 group-title="ОСС",Комедийное HD
+http://178.217.72.72/komediynoe/index.m3u8
+#EXTINF:-1 group-title="ОСС",Золотая коллекция
+http://178.217.72.72/mosfilm/index.m3u8
+#EXTINF:-1 group-title="ОСС",Наш кинопоказ HD
+http://178.217.72.72/nashkinopokazhd/index.m3u8
+#EXTINF:-1 group-title="ОСС",Наше HD
+http://178.217.72.72/nashekrutoe/index.m3u8
+#EXTINF:-1 group-title="ОСС",О!
+http://178.217.72.72/O/index.m3u8
+#EXTINF:-1 group-title="ОСС",Пятница HD
+http://178.217.72.72/Pyatnitsa/index.m3u8
+#EXTINF:-1 group-title="ОСС",Р бестселлер
+http://178.217.72.72/russkiy_bestseller/index.m3u8
+#EXTINF:-1 group-title="ОСС",СТС HD
+http://178.217.72.72/STS/index.m3u8
+#EXTINF:-1 group-title="ОСС",Суббота
+http://178.217.72.72/super/index.m3u8
+#EXTINF:-1 group-title="ОСС",ТВ3 HD
+http://178.217.72.72/TV3/index.m3u8
+#EXTINF:-1 group-title="ОСС",Тонус ТВ
+http://178.217.72.72/tonus/index.m3u8
+#EXTINF:-1 group-title="ОСС",Точка ТВ
+http://178.217.72.72/Tochka_TV/index.m3u8
+#EXTINF:-1 group-title="ОСС",СТС Kids HD
+http://178.217.72.72/ctc_kids_hd/index.m3u8
+#EXTINF:-1 group-title="ОСС",Мама
+http://178.217.72.72/Mama/index.m3u8
+#EXTINF:-1 group-title="ОСС",Мультимузыка
+http://178.217.72.72/Multimuzyka/index.m3u8
+#EXTINF:-1 group-title="ОСС",Матч HD
+http://178.217.72.72/Match_HD/index.m3u8
+#EXTINF:-1 group-title="ОСС",СПОРТ! Арена HD
+http://178.217.72.72/Match_Arena_HD/index.m3u8
+#EXTINF:-1 group-title="ОСС",СПОРТ! Игра HD
+http://178.217.72.72/Match_Igra_HD/index.m3u8
+#EXTINF:-1 group-title="ОСС",СПОРТ! Футбол 1 HD
+http://178.217.72.72/Match_Futbol_3_HD/index.m3u8
+#EXTINF:-1 group-title="ОСС",СПОРТ! Футбол 2 HD
+http://178.217.72.72/Match_Futbol_2_HD/index.m3u8
+#EXTINF:-1 group-title="ОСС",СПОРТ! Футбол 3 HD
+http://178.217.72.72/Match_Futbol_1_HD/index.m3u8
+#EXTINF:-1 group-title="FDCservers" ,TV 1000 новелла
+http://50.7.28.226/8048/index.m3u8
+#EXTINF:-1 group-title="FDCservers" ,КИНО КУЛЬТ
+http://50.7.28.226/9469/index.m3u8
+#EXTINF:-1 group-title="FDCservers" ,КИНОКЛАСИКА
+http://50.7.28.226/9461/index.m3u8
+#EXTINF:-1 group-title="FDCservers" ,ВОСЬМОЙ
+http://50.7.28.226/9459/index.m3u8
+#EXTINF:-1 group-title="FDCservers" , BCU Сваты
+http://50.7.28.226/8889/index.m3u8
+#EXTINF:-1 group-title="FDCservers" , Продвижение
+http://50.7.28.226/8665/index.m3u8
+#EXTINF:-1 group-title="FDCservers" , Наше Мужское HD
+http://50.7.28.226/8740/index.m3u8
+#EXTINF:-1 group-title="FDCservers" , MM Драма HD
+http://50.7.28.226/8634/index.m3u8
+#EXTINF:-1 group-title="FDCservers" , MM Макромир
+http://50.7.28.226/8636/index.m3u8
+#EXTINF:-1 group-title="FDCservers" , MM БОЕКВИК КЛАССИК
+http://50.7.28.226/8411/index.m3u8
+#EXTINF:-1 group-title="FDCservers" , MM СЕМЕЙНЫЙ
+http://50.7.28.226/8442/index.m3u8
+#EXTINF:-1 group-title="FDCservers" , MM СЕМЕЙНЫЙ 2
+http://50.7.28.226/8449/index.m3u8
+#EXTINF:-1 group-title="FDCservers" , MM СУПЕРГЕРОИ
+http://50.7.28.226/8710/index.m3u8
+#EXTINF:-1 group-title="FDCservers" , CineMan Симпсоны
+http://50.7.28.226/8833/index.m3u8
+#EXTINF:-1 group-title="FDCservers" , CineMan РуКино
+http://50.7.28.226/8871/index.m3u8
+#EXTINF:-1 group-title="FDCservers" ,ПЛЮС ПЛЮС
+http://50.7.28.226/9455/index.m3u8
+#EXTINF:-1 group-title="FDCservers" ,БЛОКБАСТЕР
+http://50.7.28.226/8939/index.m3u8
+#EXTINF:-1 group-title="StarNet",Кинопремьера HD
+http://139.28.255.188:8080/kinoprem/index.m3u8
+#EXTINF:-1 group-title="StarNet",ОТР
+http://139.28.255.188:8080/otr/index.m3u8
+#EXTINF:-1 group-title="StarNet",Спас
+http://139.28.255.188:8080/spas/index.m3u8
+#EXTINF:-1 group-title="StarNet",Муз ТВ
+http://139.28.255.188:8080/muztv/index.m3u8
+#EXTINF:-1 group-title="StarNet",МузСоюз
+http://139.28.255.188:8080/muzsojuz/index.m3u8
+#EXTINF:-1 group-title="StarNet"Матч HD
+http://139.28.255.188:8080/match/index.m3u8
+#EXTINF,:-1 group-title="StarNet" Боец
+http://139.28.255.188:8080/matchboec/index.m3u8
+#EXTINF:-1 group-title="Объединенные сети",Тайны Галактики
+http://146.120.14.239:3001/play/a08j
+#EXTINF:-1 group-title="Объединенные сети",Совершенно Секретно
+http://146.120.14.239:3001/play/a0fo
+#EXTINF:-1 group-title="Объединенные сети",Перец International
+http://146.120.14.239:3001/play/a06o
+#EXTINF:-1 group-title="Объединенные сети",ТНТ International
+http://146.120.14.239:3001/play/a08i
+#EXTINF:-1 group-title="Объединенные сети",Киноман
+http://146.120.14.239:3001/play/a0fv
+#EXTINF:-1 group-title="Объединенные сети",Анекдот ТВ
+http://146.120.14.239:3001/play/a08p
+#EXTINF:-1 group-title="Объединенные сети",Феникс+Кино
+http://146.120.14.239:3001/play/a099
+#EXTINF:-1 group-title="Объединенные сети",Европа Плюс ТВ
+http://146.120.14.239:3001/play/a07o
+#EXTINF:-1 group-title="Объединенные сети",Музыка Live
+http://146.120.14.239:3001/play/a07w
+#EXTINF:-1 group-title="Объединенные сети",Беларусь 5
+http://146.120.14.239:3001/play/a06l
+#EXTINF:-1 group-title="Uvensys GmbH", Планета HD
+https://blueberry.uvs.onlinetv.link/cdn_origin2/planeta_hd/chunks.m3u8
+#EXTINF:-1 group-title="Uvensys GmbH", Інтер
+https://blueberry.uvs.onlinetv.link/cdn_origin2/inter/chunks.m3u8
+#EXTINF:-1 group-title="Uvensys GmbH", Еда
+https://blueberry.uvs.onlinetv.link/cdn_origin2/eda/chunks.m3u8
+#EXTINF:-1 group-title="Uvensys GmbH", Остросюжетное HD
+https://blueberry.uvs.onlinetv.link/cdn_origin2/ostrosyzhetnoe/chunks.m3u8
+#EXTINF:-1 group-title="Uvensys GmbH", TV1000  кино
+https://blueberry.uvs.onlinetv.link/cdn_origin2/tv1000russkoekino/chunks.m3u8
+#EXTINF:-1 group-title="Uvensys GmbH", Страшное HD
+https://blueberry.uvs.onlinetv.link/cdn_origin2/strashnoe_hd/chunks.m3u8
