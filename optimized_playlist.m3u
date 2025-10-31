@@ -1,79 +1,91 @@
-import re
-import requests
-
-def parse_m3u(file_path):
-    with open(file_path, 'r', encoding='utf-8') as f:
-        lines = f.readlines()
-
-    channels = []
-    temp = {}
-    for line in lines:
-        line = line.strip()
-        if line.startswith('#EXTINF'):
-            temp['info'] = line
-        elif line and not line.startswith('#'):
-            temp['url'] = line
-            channels.append(temp)
-            temp = {}
-    return channels
-
-def is_russian(text):
-    # Проверяем наличие кириллицы в названии
-    return bool(re.search('[а-яА-Я]', text))
-
-def check_url(url):
-    try:
-        # Используем HEAD-запрос для проверки доступности потока
-        response = requests.head(url, timeout=5, allow_redirects=True)
-        return response.status_code == 200
-    except:
-        return False
-
-def remove_duplicates(channels):
-    seen_names = set()
-    unique = []
-    for ch in channels:
-        # Ключем дубликата считаем имя канала (без параметров)
-        name = ch['info'].split(',', 1)[-1].strip().lower()
-        if name not in seen_names:
-            seen_names.add(name)
-            unique.append(ch)
-    return unique
-
-def save_m3u(channels, output_path):
-    with open(output_path, 'w', encoding='utf-8') as f:
-        f.write('#EXTM3U\n')
-        for ch in channels:
-            f.write(ch['info'] + '\n')
-            f.write(ch['url'] + '\n')
-
-def main():
-    input_file = 'kino-plus.m3u'  # Исходный плейлист
-    output_file = 'cleaned_kino_plus.m3u'  # Очищенный плейлист
-
-    channels = parse_m3u(input_file)
-    print(f'Всего каналов в плейлисте: {len(channels)}')
-
-    channels = remove_duplicates(channels)
-    print(f'После удаления дубликатов: {len(channels)}')
-
-    filtered_channels = []
-    print('Проверяем ссылки и фильтруем русскоязычные каналы...')
-
-    for ch in channels:
-        name = ch['info'].split(',', 1)[-1]
-        if is_russian(name):
-            if check_url(ch['url']):
-                filtered_channels.append(ch)
-            else:
-                print(f'Ссылка не работает: {name}')
-        else:
-            print(f'Пропущен не русском язык: {name}')
-
-    print(f'Оставлено рабочих русскоязычных каналов: {len(filtered_channels)}')
-
-    save_m3u(filtered_channels, output_file)
-    print(f'Очищенный плейлист сохранен в {output_file}')
-
-if __name__ == "__main__":
-    main()
+#EXTM3U url-tvg="http://iptvx.one/epg/epg.xml.gz"
+#EXTINF:-1 group-title="Кино и сериалы" tvg-name="312Кино" tvg-language="ru",312Кино
+http://176.126.166.43:1935/live/312kino/playlist.m3u8
+#EXTINF:-1 xui-id="10492" tvg-id="" tvg-name="BCU Кинозалы (VPN) Premiere 1 HD" tvg-logo="" group-title="Кино и сериалы" tvg-language="ru",BCU Кинозалы (VPN) Premiere 1 HD
+http://128.140.55.5:80/play/hhvFRY1oVT36QbH4zdqDvxneYdsHqR6D2yQR55Hqido/m3u8
+#EXTINF:-1 xui-id="10493" tvg-id="" tvg-name="BCU Кинозалы (VPN) Premiere 2 HD" tvg-logo="" group-title="Кино и сериалы" tvg-language="ru",BCU Кинозалы (VPN) Premiere 2 HD
+http://128.140.55.5:80/play/hhvFRY1oVT36QbH4zdqDvyvLqSptfc1SKx-z1dV8ZbI/m3u8
+#EXTINF:-1 xui-id="10494" tvg-id="" tvg-name="BCU Кинозалы (VPN) Premiere 3 HD" tvg-logo="" group-title="Кино и сериалы" tvg-language="ru",BCU Кинозалы (VPN) Premiere 3 HD
+http://128.140.55.5:80/play/hhvFRY1oVT36QbH4zdqDvyB3p-UUaNgn4QKM3cNGArQ/m3u8
+#EXTINF:-1 xui-id="10508" tvg-id="" tvg-name="BCU Мультсериал HD" tvg-logo="" group-title="Кино и сериалы" tvg-language="ru",BCU Мультсериал HD
+http://128.140.55.5:80/play/hhvFRY1oVT36QbH4zdqDv7JTnkmkdMT99PwNcZ5RVwE/m3u8
+#EXTINF:-1 group-title="Кино и сериалы" tvg-name="TV1000 Кино" tvg-language="ru",TV1000 Кино
+http://91.194.191.241:8081/chid69/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" tvg-name="TV1000 Ру кино" tvg-language="ru",TV1000 Ру кино
+http://api.peers.tv/timeshift/tv_1000_rus_kino/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjE4NTQ2NzQsImlhdCI6MTc2MTc2ODI3NCwiY2lkIjo2LCJ1aWQiOjk1OTg5MDA5OSwicmVnIjpmYWxzZSwiaXAiOjM1ODU1NTI1NzksImFkdWx0IjpmYWxzZX0.ByL3UKoVLCSvu8mgXuZ38FxWpWyr3KL1NCe4xVRFkUI&offset=10
+#EXTINF:-1 group-title="Кино и сериалы" tvg-name="Usba Кинозал 10" tvg-language="ru",Usba Кинозал 10
+https://fl1001.bozztv.com/ushba-films-g/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" tvg-name="Usba Кинозал 11" tvg-language="ru",Usba Кинозал 11
+https://fl1001.bozztv.com/ushba-films-h/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" tvg-name="Usba Кинозал 12" tvg-language="ru",Usba Кинозал 12
+https://fl1001.bozztv.com/ushba-films-i/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" tvg-name="Usba Кинозал 13" tvg-language="ru",Usba Кинозал 13
+https://fl1001.bozztv.com/ushba-films-j/index.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" tvg-name="Usba Кинозал 14" tvg-language="ru",Usba Кинозал 14
+https://fl1001.bozztv.com/ushba-films-m/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" tvg-name="Usba Кинозал 15" tvg-language="ru",Usba Кинозал 15
+https://fl1001.bozztv.com/ushba-films-p/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" tvg-name="Usba Кинозал 16" tvg-language="ru",Usba Кинозал 16
+https://fl1001.bozztv.com/ushba-films-t/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" tvg-name="Usba Кинозал 17" tvg-language="ru",Usba Кинозал 17
+https://fl1001.bozztv.com/ushba-films-yz/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" tvg-name="Usba Кинозал 18" tvg-language="ru",Usba Кинозал 18
+https://fl1001.bozztv.com/ushba-films-n/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" tvg-name="Usba Кинозал 19" tvg-language="ru",Usba Кинозал 19
+https://fl1001.bozztv.com/ushba-films-qr/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" tvg-name="Usba Кинозал 20" tvg-language="ru",Usba Кинозал 20
+https://fl1001.bozztv.com/ushba-films-uv/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" tvg-name="Usba Кинозал 21" tvg-language="ru",Usba Кинозал 21
+https://fl1001.bozztv.com/ushba-films-o/index.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" tvg-name="Usba Кинозал 22" tvg-language="ru",Usba Кинозал 22
+https://fl1001.bozztv.com/ushba-films-s/index.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" tvg-name="Usba Кинозал 23" tvg-language="ru",Usba Кинозал 23
+https://fl1001.bozztv.com/ushba-films-w/index.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" tvg-name="Usba Кинозал 24" tvg-language="ru",Usba Кинозал 24
+https://fl1001.bozztv.com/ushba-rfilrms-0/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" tvg-name="Usba Кинозал 25" tvg-language="ru",Usba Кинозал 25
+https://fl1001.bozztv.com/ushba-rfilrms-a/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" tvg-name="Usba Кинозал 26" tvg-language="ru",Usba Кинозал 26
+https://fl1001.bozztv.com/ushba-rfilrms-b/index.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" tvg-name="Usba Кинозал 27" tvg-language="ru",Usba Кинозал 27
+https://fl1001.bozztv.com/ushba-rfilrms-c/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" tvg-name="Usba Кинозал 28" tvg-language="ru",Usba Кинозал 28
+https://fl1001.bozztv.com/ushba-rfilrms-d/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" tvg-name="Usba Кинозал 29" tvg-language="ru",Usba Кинозал 29
+https://fl1001.bozztv.com/ushba-rfilrms-e/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" tvg-name="Usba Кинозал 3" tvg-language="ru",Usba Кинозал 3
+https://fl1001.bozztv.com/ushba24/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" tvg-name="Usba Кинозал 30" tvg-language="ru",Usba Кинозал 30
+https://fl1001.bozztv.com/ushba-rfilrms-g/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" tvg-name="Usba Кинозал 31" tvg-language="ru",Usba Кинозал 31
+https://fl1001.bozztv.com/ushba-rfilrms-i/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" tvg-name="Usba Кинозал 32" tvg-language="ru",Usba Кинозал 32
+https://fl1001.bozztv.com/ushba-rfilrms-k/index.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" tvg-name="Usba Кинозал 33" tvg-language="ru",Usba Кинозал 33
+https://fl1001.bozztv.com/ushba-rfilrms-p/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" tvg-name="Usba Кинозал 34" tvg-language="ru",Usba Кинозал 34
+https://fl1001.bozztv.com/ushba-rfilrms-v/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" tvg-name="Usba Кинозал 35" tvg-language="ru",Usba Кинозал 35
+https://fl1001.bozztv.com/ushba-rfilrms-z/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" tvg-name="Usba Кинозал 36" tvg-language="ru",Usba Кинозал 36
+https://fl1001.bozztv.com/ushba64/index.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" tvg-name="Usba Кинозал 37" tvg-language="ru",Usba Кинозал 37
+https://fl1001.bozztv.com/ushba65/index.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" tvg-name="Usba Кинозал 4" tvg-language="ru",Usba Кинозал 4
+https://fl1001.bozztv.com/ushba26/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" tvg-name="Usba Кинозал 6" tvg-language="ru",Usba Кинозал 6
+https://fl1001.bozztv.com/ushba-films-c/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" tvg-name="Usba Кинозал 7" tvg-language="ru",Usba Кинозал 7
+https://fl1001.bozztv.com/ushba-films-d/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" tvg-name="Usba Кинозал 8" tvg-language="ru",Usba Кинозал 8
+https://fl1001.bozztv.com/ushba-films-e/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" tvg-name="Usba Кинозал 9" tvg-language="ru",Usba Кинозал 9
+https://fl1001.bozztv.com/ushba-films-f/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" tvg-name="Детское кино International" tvg-language="ru",Детское кино International
+https://v2.catcast.tv/content/38720/index.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" tvg-name="Дом кино" tvg-language="ru",Дом кино
+http://api.peers.tv/timeshift/dom_kino/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjE4NTQ2NzQsImlhdCI6MTc2MTc2ODI3NCwiY2lkIjo2LCJ1aWQiOjk1OTg5MDA5OSwicmVnIjpmYWxzZSwiaXAiOjM1ODU1NTI1NzksImFkdWx0IjpmYWxzZX0.ByL3UKoVLCSvu8mgXuZ38FxWpWyr3KL1NCe4xVRFkUI&offset=10
+#EXTINF:-1 group-title="Кино и сериалы" tvg-name="Дом кино Премиум" tvg-language="ru",Дом кино Премиум
+http://api.peers.tv/timeshift/dom_kino_premium/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjE4NTQ2NzQsImlhdCI6MTc2MTc2ODI3NCwiY2lkIjo2LCJ1aWQiOjk1OTg5MDA5OSwicmVnIjpmYWxzZSwiaXAiOjM1ODU1NTI1NzksImFkdWx0IjpmYWxzZX0.ByL3UKoVLCSvu8mgXuZ38FxWpWyr3KL1NCe4xVRFkUI&offset=10
+#EXTINF:-1 group-title="Кино и сериалы" tvg-name="Еврокино" tvg-language="ru",Еврокино
+http://api.peers.tv/timeshift/eurokino/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NjE4NTQ2NzQsImlhdCI6MTc2MTc2ODI3NCwiY2lkIjo2LCJ1aWQiOjk1OTg5MDA5OSwicmVн...
