@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="http://iptvx.one/epg/epg.xml.gz
+#EXTM3U url-tvg="http://iptvx.one/epg/epg.xml.gz"
 #EXTINF:-1 tvg-id="EuronewsRU.tv" tvg-name="Euronews RU" tvg-logo="" group-title="Общие",Euronews RU
 http://95.85.109.219:7000/play/a071
 #EXTINF:-1 tvg-id="OstWest24.tv" tvg-name="OstWest 24" tvg-logo="" group-title="Общие",OstWest 24
