@@ -38,8 +38,6 @@ http://217.25.80.16/Amedia_hit/mono.m3u8
 http://217.25.80.16/Amedia_Premium_HD/mono.m3u8
 #EXTINF:-1 tvg-id="Ani.tv" tvg-name="Ani" tvg-logo="" group-title="Фильмы",Ani
 http://185.46.16.239:8000/Ani
-#EXTINF:-1 tvg-id="BabesTV.tv" tvg-name="Babes TV" tvg-logo="" group-title="Фильмы",Babes TV
-http://88.212.7.11/live/test_basbes_hd_hevc/playlist.m3u8
 #EXTINF:-1 tvg-id="BCUActionHD.tv" tvg-name="BCU Action HD" tvg-logo="" group-title="Фильмы",BCU Action HD
 http://178.217.72.72/BCUActionHD/index.m3u8
 #EXTINF:-1 tvg-id="BCUACTIONHDR.tv" tvg-name="BCU ACTION HDR" tvg-logo="" group-title="Фильмы",BCU ACTION HDR
@@ -1458,3 +1456,5 @@ https://lotus.stingray.com/manifest/ose-104ads-montreal/samsungtvplus/master.m3u
 http://cdn.adultiptv.net/teen.m3u8
 #EXTINF:-1 tvg-id="Threesome.tv" tvg-name="Threesome" tvg-logo="" group-title="18+",Threesome
 http://cdn.adultiptv.net/threesome.m3u8
+#EXTINF:-1 tvg-id="BabesTV.tv" tvg-name="Babes TV" tvg-logo="" group-title="Фильмы",Babes TV
+http://88.212.7.11/live/test_basbes_hd_hevc/playlist.m3u8
