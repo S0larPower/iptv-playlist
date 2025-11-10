@@ -1,6 +1,7 @@
 #EXTM3U url-tvg="http://iptvx.one/epg/epg.xml.gz https://iptv-org.github.io/epg/guides/ru.xml https://iptv-org.github.io/epg/guides/ua.xml"
 
-
+#EXTINF:-1 tvg-id="HYI.tv" tvg-name="HYI" tvg-logo="" group-title="18+",HYI
+https://hochu.tv/fap-tv-2.html.m3u8
 #EXTINF:-1 tvg-id="BCUKINOZAKAZHD.tv" tvg-name="BCU KINOZAKAZ HD" tvg-logo="https://iptvx.one/icn/bcukinozakaz.png" group-title="Общие",BCU KINOZAKAZ HD
 http://128.140.55.5:80/play/hhvFRY1oVT36QbH4zdqDvyerBpVTXuRwaTpz1Q0lAEI/m3u8
 #EXTINF:-1 tvg-id="BCUPremiereHD.tv" tvg-name="BCU Premiere HD" tvg-logo="https://iptvx.one/icn/bcupremiere.png" group-title="Общие",BCU Premiere HD
