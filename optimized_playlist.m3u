@@ -1,4 +1,5 @@
-#EXTM3U x-tvg-url="http://iptvx.one/epg/epg.xml.gz"
+#EXTM3U url-tvg="http://iptvx.one/epg/epg.xml.gz https://iptv-org.github.io/epg/guides/ru.xml https://iptv-org.github.io/epg/guides/ua.xml"
+
 
 #EXTINF:-1 tvg-id="BCUKINOZAKAZHD.tv" tvg-name="BCU KINOZAKAZ HD" tvg-logo="https://iptvx.one/icn/bcukinozakaz.png" group-title="Общие",BCU KINOZAKAZ HD
 http://128.140.55.5:80/play/hhvFRY1oVT36QbH4zdqDvyerBpVTXuRwaTpz1Q0lAEI/m3u8
