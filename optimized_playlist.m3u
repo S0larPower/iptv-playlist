@@ -4,11 +4,8 @@
 https://cdn4.skygo.mn/live/disk1/THT/HLSv3-FTA/THT.m3u8
 #EXTINF:-1 tvg-id="TNT4International4.tv" tvg-name="TNT4 International+4" tvg-logo="" group-title="Групповые",TNT4 International+4
 https://cdn4.skygo.mn/live/disk1/TNT4/HLSv3-FTA/TNT4.m3u8
-#EXTINF:-1 tvg-id="ТНТ.tv" tvg-name="ТНТ" tvg-logo="" group-title="Групповые",ТНТ
-http://185.46.16.239:8000/TNT
 #EXTINF:-1 tvg-id="ТНТMusic.tv" tvg-name="ТНТ Music" tvg-logo="" group-title="Групповые",ТНТ Music
 http://185.46.16.239:8000/Nashe_TV
-#EXTINF:-1 tvg-id="ТНТ4.tv" tvg-name="ТНТ4" tvg-logo="" group-title="Групповые",ТНТ4
 #EXTINF:-1 tvg-id="BCUActionHD.tv" tvg-name="BCU Action HD" tvg-logo="" group-title="Групповые",BCU Action HD
 http://178.217.72.72/BCUActionHD/index.m3u8
 #EXTINF:-1 tvg-id="BCUCHARMHD.tv" tvg-name="BCU CHARM HD" tvg-logo="" group-title="Групповые",BCU CHARM HD
